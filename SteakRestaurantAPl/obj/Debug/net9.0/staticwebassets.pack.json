@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg",
+      "PackagePath": "staticwebassets\\images\\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg"
+    },
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\a1bbef85-9696-4647-bdc5-db884689afac.jpg",
+      "PackagePath": "staticwebassets\\images\\a1bbef85-9696-4647-bdc5-db884689afac.jpg"
+    },
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\caesar_salad.jpg",
+      "PackagePath": "staticwebassets\\images\\caesar_salad.jpg"
+    },
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\lobster_tail.jpg",
+      "PackagePath": "staticwebassets\\images\\lobster_tail.jpg"
+    },
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\ribeye.jpg",
+      "PackagePath": "staticwebassets\\images\\ribeye.jpg"
+    },
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\tbone.jpg",
+      "PackagePath": "staticwebassets\\images\\tbone.jpg"
+    },
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\truffle_mac.jpg",
+      "PackagePath": "staticwebassets\\images\\truffle_mac.jpg"
+    },
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\wagyu_tenderloin.jpg",
+      "PackagePath": "staticwebassets\\images\\wagyu_tenderloin.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SteakRestaurantAPl.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SteakRestaurantAPl.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SteakRestaurantAPl.props",
+      "PackagePath": "build\\SteakRestaurantAPl.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SteakRestaurantAPl.props",
+      "PackagePath": "buildMultiTargeting\\SteakRestaurantAPl.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SteakRestaurantAPl.props",
+      "PackagePath": "buildTransitive\\SteakRestaurantAPl.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
