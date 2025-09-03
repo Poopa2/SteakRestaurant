@@ -1,0 +1,136 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/assets/index-C1sxBwsM.hdldf6fd4z.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-C1sxBwsM.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hdldf6fd4z"},{"Name":"integrity","Value":"sha256-i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18="},{"Name":"label","Value":"_content/SteakRestaurantAPl/assets/index-C1sxBwsM.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"251810"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18=\u0022"},{"Name":"Last-Modified","Value":"Wed, 03 Sep 2025 21:57:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/assets/index-C1sxBwsM.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-C1sxBwsM.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"251810"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18=\u0022"},{"Name":"Last-Modified","Value":"Wed, 03 Sep 2025 21:57:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/0a6eb890-5f38-4923-94c2-1c920eb8c5c0.7a69adhdzk.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7a69adhdzk"},{"Name":"integrity","Value":"sha256-8YmyB9F6FjqgVGlTotbBiNlS9pKCHhfmQXX4OulfVZU="},{"Name":"label","Value":"_content/SteakRestaurantAPl/images/0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"36696"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228YmyB9F6FjqgVGlTotbBiNlS9pKCHhfmQXX4OulfVZU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 20:43:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8YmyB9F6FjqgVGlTotbBiNlS9pKCHhfmQXX4OulfVZU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"36696"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228YmyB9F6FjqgVGlTotbBiNlS9pKCHhfmQXX4OulfVZU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 20:43:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/a1bbef85-9696-4647-bdc5-db884689afac.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a1bbef85-9696-4647-bdc5-db884689afac.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-C\u002B4JkWarYy0Q0tL\u002ByOz0trdbMGb5oTEpmDJGFuuF\u002BH8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6652"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022C\u002B4JkWarYy0Q0tL\u002ByOz0trdbMGb5oTEpmDJGFuuF\u002BH8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 18:28:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/a1bbef85-9696-4647-bdc5-db884689afac.zmt4vshsjs.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a1bbef85-9696-4647-bdc5-db884689afac.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zmt4vshsjs"},{"Name":"integrity","Value":"sha256-C\u002B4JkWarYy0Q0tL\u002ByOz0trdbMGb5oTEpmDJGFuuF\u002BH8="},{"Name":"label","Value":"_content/SteakRestaurantAPl/images/a1bbef85-9696-4647-bdc5-db884689afac.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6652"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022C\u002B4JkWarYy0Q0tL\u002ByOz0trdbMGb5oTEpmDJGFuuF\u002BH8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 18:28:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/caesar_salad.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\caesar_salad.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6vvNwoHu/5xtuP58\u002B2mmqu4EW1X70bqpxw46Anu4\u002BOA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"706409"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226vvNwoHu/5xtuP58\u002B2mmqu4EW1X70bqpxw46Anu4\u002BOA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 22:06:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/caesar_salad.mdst3dh6op.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\caesar_salad.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mdst3dh6op"},{"Name":"integrity","Value":"sha256-6vvNwoHu/5xtuP58\u002B2mmqu4EW1X70bqpxw46Anu4\u002BOA="},{"Name":"label","Value":"_content/SteakRestaurantAPl/images/caesar_salad.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"706409"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226vvNwoHu/5xtuP58\u002B2mmqu4EW1X70bqpxw46Anu4\u002BOA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 22:06:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/lobster_tail.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\lobster_tail.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6\u002BopT5pUM5\u002BkyupLbzFWMMBJBeKWF3op3\u002BveufE0fNM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"222532"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226\u002BopT5pUM5\u002BkyupLbzFWMMBJBeKWF3op3\u002BveufE0fNM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 22:02:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/lobster_tail.xlkvn5jvl8.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\lobster_tail.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xlkvn5jvl8"},{"Name":"integrity","Value":"sha256-6\u002BopT5pUM5\u002BkyupLbzFWMMBJBeKWF3op3\u002BveufE0fNM="},{"Name":"label","Value":"_content/SteakRestaurantAPl/images/lobster_tail.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"222532"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226\u002BopT5pUM5\u002BkyupLbzFWMMBJBeKWF3op3\u002BveufE0fNM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 22:02:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/ribeye.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ribeye.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XWM2CKZx9gHtJipjnzQITTpqWBQkEVry7BOQ0KTTAYY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"78225"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XWM2CKZx9gHtJipjnzQITTpqWBQkEVry7BOQ0KTTAYY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 21:56:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/ribeye.jsm5q4vf0q.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ribeye.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jsm5q4vf0q"},{"Name":"integrity","Value":"sha256-XWM2CKZx9gHtJipjnzQITTpqWBQkEVry7BOQ0KTTAYY="},{"Name":"label","Value":"_content/SteakRestaurantAPl/images/ribeye.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"78225"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XWM2CKZx9gHtJipjnzQITTpqWBQkEVry7BOQ0KTTAYY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 21:56:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/tbone.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\tbone.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gAaANjXeNVQwXi/gzEG4u/4iS4NkGdMSqBbEimHnE9Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62910"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gAaANjXeNVQwXi/gzEG4u/4iS4NkGdMSqBbEimHnE9Q=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 22:01:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/tbone.k3gsih51cd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\tbone.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k3gsih51cd"},{"Name":"integrity","Value":"sha256-gAaANjXeNVQwXi/gzEG4u/4iS4NkGdMSqBbEimHnE9Q="},{"Name":"label","Value":"_content/SteakRestaurantAPl/images/tbone.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62910"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gAaANjXeNVQwXi/gzEG4u/4iS4NkGdMSqBbEimHnE9Q=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 22:01:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/truffle_mac.cpf7s2d773.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\truffle_mac.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cpf7s2d773"},{"Name":"integrity","Value":"sha256-QL\u002BS4J0iAvh0BrAOjzI6M4MNPnC5Zm0wWYnaW9cCFIc="},{"Name":"label","Value":"_content/SteakRestaurantAPl/images/truffle_mac.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"519044"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QL\u002BS4J0iAvh0BrAOjzI6M4MNPnC5Zm0wWYnaW9cCFIc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 Aug 2025 00:20:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/truffle_mac.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\truffle_mac.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QL\u002BS4J0iAvh0BrAOjzI6M4MNPnC5Zm0wWYnaW9cCFIc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"519044"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QL\u002BS4J0iAvh0BrAOjzI6M4MNPnC5Zm0wWYnaW9cCFIc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 Aug 2025 00:20:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/wagyu_tenderloin.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\wagyu_tenderloin.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Lo//X1HWnxpTfe015qOGUK1WJgfZNjAqCKyRW2Ao6Eg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66652"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Lo//X1HWnxpTfe015qOGUK1WJgfZNjAqCKyRW2Ao6Eg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 21:58:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/images/wagyu_tenderloin.yf76gpljk2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\wagyu_tenderloin.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yf76gpljk2"},{"Name":"integrity","Value":"sha256-Lo//X1HWnxpTfe015qOGUK1WJgfZNjAqCKyRW2Ao6Eg="},{"Name":"label","Value":"_content/SteakRestaurantAPl/images/wagyu_tenderloin.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66652"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Lo//X1HWnxpTfe015qOGUK1WJgfZNjAqCKyRW2Ao6Eg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Aug 2025 21:58:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pX4mvFaK7yV142f0qg5\u002BHcXeg5kcOxn3WIDACwf8byw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"453"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022pX4mvFaK7yV142f0qg5\u002BHcXeg5kcOxn3WIDACwf8byw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 03 Sep 2025 21:57:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/index.l4chf6a119.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l4chf6a119"},{"Name":"integrity","Value":"sha256-pX4mvFaK7yV142f0qg5\u002BHcXeg5kcOxn3WIDACwf8byw="},{"Name":"label","Value":"_content/SteakRestaurantAPl/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"453"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022pX4mvFaK7yV142f0qg5\u002BHcXeg5kcOxn3WIDACwf8byw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 03 Sep 2025 21:57:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/vite.69kjnsiwqx.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\vite.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"69kjnsiwqx"},{"Name":"integrity","Value":"sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="},{"Name":"label","Value":"_content/SteakRestaurantAPl/vite.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1497"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 02:13:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SteakRestaurantAPl/vite.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\vite.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1497"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 02:13:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

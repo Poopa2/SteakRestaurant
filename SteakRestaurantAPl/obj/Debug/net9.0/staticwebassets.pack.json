@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\assets\\index-BmK0KAPA.js",
+      "PackagePath": "staticwebassets\\assets\\index-BmK0KAPA.js"
+    },
+    {
       "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg",
       "PackagePath": "staticwebassets\\images\\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg"
     },
@@ -31,6 +35,14 @@
     {
       "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\wagyu_tenderloin.jpg",
       "PackagePath": "staticwebassets\\images\\wagyu_tenderloin.jpg"
+    },
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SteakRestaurantAPl.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

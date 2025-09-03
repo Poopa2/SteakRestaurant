@@ -1,0 +1,1866 @@
+{
+  "Version": 1,
+  "Hash": "xe33CyXSChzUopcRlkxPcK04mw0GgnR1iOhCySjI3jE=",
+  "Source": "SteakRestaurantAPl",
+  "BasePath": "_content/SteakRestaurantAPl",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SteakRestaurantAPl\\wwwroot",
+      "Source": "SteakRestaurantAPl",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\3i2uut03u7-hdldf6fd4z.gz",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "assets/index-C1sxBwsM#[.{fingerprint=hdldf6fd4z}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\assets\\index-C1sxBwsM.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "szu2rlcxwr",
+      "Integrity": "mIdTHnZ05Pa5QaaHfz9Gre9Bsb0KTHEdxJDJJMkSoHs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\assets\\index-C1sxBwsM.js"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\62m1ndd2z5-l4chf6a119.gz",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "index#[.{fingerprint=l4chf6a119}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hyp10peho4",
+      "Integrity": "qV14MnNaylZM3SwdOOzAbc8SZTwtBrI7fz06NWZwcB0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\l0pdvvzy9o-69kjnsiwqx.gz",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "vite#[.{fingerprint=69kjnsiwqx}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\vite.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xj979drvbl",
+      "Integrity": "42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\vite.svg"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\assets\\index-C1sxBwsM.js",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "assets/index-C1sxBwsM#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hdldf6fd4z",
+      "Integrity": "i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-C1sxBwsM.js"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "images/0a6eb890-5f38-4923-94c2-1c920eb8c5c0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7a69adhdzk",
+      "Integrity": "8YmyB9F6FjqgVGlTotbBiNlS9pKCHhfmQXX4OulfVZU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\a1bbef85-9696-4647-bdc5-db884689afac.jpg",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "images/a1bbef85-9696-4647-bdc5-db884689afac#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zmt4vshsjs",
+      "Integrity": "C+4JkWarYy0Q0tL+yOz0trdbMGb5oTEpmDJGFuuF+H8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a1bbef85-9696-4647-bdc5-db884689afac.jpg"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\caesar_salad.jpg",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "images/caesar_salad#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mdst3dh6op",
+      "Integrity": "6vvNwoHu/5xtuP58+2mmqu4EW1X70bqpxw46Anu4+OA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\caesar_salad.jpg"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\lobster_tail.jpg",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "images/lobster_tail#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xlkvn5jvl8",
+      "Integrity": "6+opT5pUM5+kyupLbzFWMMBJBeKWF3op3+veufE0fNM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\lobster_tail.jpg"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\ribeye.jpg",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "images/ribeye#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jsm5q4vf0q",
+      "Integrity": "XWM2CKZx9gHtJipjnzQITTpqWBQkEVry7BOQ0KTTAYY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ribeye.jpg"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\tbone.jpg",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "images/tbone#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k3gsih51cd",
+      "Integrity": "gAaANjXeNVQwXi/gzEG4u/4iS4NkGdMSqBbEimHnE9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tbone.jpg"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\truffle_mac.jpg",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "images/truffle_mac#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cpf7s2d773",
+      "Integrity": "QL+S4J0iAvh0BrAOjzI6M4MNPnC5Zm0wWYnaW9cCFIc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\truffle_mac.jpg"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\wagyu_tenderloin.jpg",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "images/wagyu_tenderloin#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yf76gpljk2",
+      "Integrity": "Lo//X1HWnxpTfe015qOGUK1WJgfZNjAqCKyRW2Ao6Eg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\wagyu_tenderloin.jpg"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\index.html",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l4chf6a119",
+      "Integrity": "pX4mvFaK7yV142f0qg5+HcXeg5kcOxn3WIDACwf8byw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\vite.svg",
+      "SourceId": "SteakRestaurantAPl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\",
+      "BasePath": "_content/SteakRestaurantAPl",
+      "RelativePath": "vite#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69kjnsiwqx",
+      "Integrity": "SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\vite.svg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/index-C1sxBwsM.hdldf6fd4z.js",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\3i2uut03u7-hdldf6fd4z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000012990893"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76976"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mIdTHnZ05Pa5QaaHfz9Gre9Bsb0KTHEdxJDJJMkSoHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hdldf6fd4z"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-C1sxBwsM.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-C1sxBwsM.hdldf6fd4z.js",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\assets\\index-C1sxBwsM.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hdldf6fd4z"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-C1sxBwsM.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-C1sxBwsM.hdldf6fd4z.js.gz",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\3i2uut03u7-hdldf6fd4z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mIdTHnZ05Pa5QaaHfz9Gre9Bsb0KTHEdxJDJJMkSoHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hdldf6fd4z"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-C1sxBwsM.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mIdTHnZ05Pa5QaaHfz9Gre9Bsb0KTHEdxJDJJMkSoHs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-C1sxBwsM.js",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\3i2uut03u7-hdldf6fd4z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000012990893"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76976"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mIdTHnZ05Pa5QaaHfz9Gre9Bsb0KTHEdxJDJJMkSoHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-C1sxBwsM.js",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\assets\\index-C1sxBwsM.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i9v6My71XSqcXSjkJxBbGUG3S/GKUOwEhAu9qhhJD18="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-C1sxBwsM.js.gz",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\3i2uut03u7-hdldf6fd4z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mIdTHnZ05Pa5QaaHfz9Gre9Bsb0KTHEdxJDJJMkSoHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mIdTHnZ05Pa5QaaHfz9Gre9Bsb0KTHEdxJDJJMkSoHs="
+        }
+      ]
+    },
+    {
+      "Route": "images/0a6eb890-5f38-4923-94c2-1c920eb8c5c0.7a69adhdzk.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YmyB9F6FjqgVGlTotbBiNlS9pKCHhfmQXX4OulfVZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 20:43:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7a69adhdzk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YmyB9F6FjqgVGlTotbBiNlS9pKCHhfmQXX4OulfVZU="
+        }
+      ]
+    },
+    {
+      "Route": "images/0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YmyB9F6FjqgVGlTotbBiNlS9pKCHhfmQXX4OulfVZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 20:43:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YmyB9F6FjqgVGlTotbBiNlS9pKCHhfmQXX4OulfVZU="
+        }
+      ]
+    },
+    {
+      "Route": "images/a1bbef85-9696-4647-bdc5-db884689afac.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\a1bbef85-9696-4647-bdc5-db884689afac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C+4JkWarYy0Q0tL+yOz0trdbMGb5oTEpmDJGFuuF+H8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 18:28:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C+4JkWarYy0Q0tL+yOz0trdbMGb5oTEpmDJGFuuF+H8="
+        }
+      ]
+    },
+    {
+      "Route": "images/a1bbef85-9696-4647-bdc5-db884689afac.zmt4vshsjs.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\a1bbef85-9696-4647-bdc5-db884689afac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C+4JkWarYy0Q0tL+yOz0trdbMGb5oTEpmDJGFuuF+H8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 18:28:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zmt4vshsjs"
+        },
+        {
+          "Name": "label",
+          "Value": "images/a1bbef85-9696-4647-bdc5-db884689afac.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C+4JkWarYy0Q0tL+yOz0trdbMGb5oTEpmDJGFuuF+H8="
+        }
+      ]
+    },
+    {
+      "Route": "images/caesar_salad.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\caesar_salad.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "706409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6vvNwoHu/5xtuP58+2mmqu4EW1X70bqpxw46Anu4+OA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 22:06:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6vvNwoHu/5xtuP58+2mmqu4EW1X70bqpxw46Anu4+OA="
+        }
+      ]
+    },
+    {
+      "Route": "images/caesar_salad.mdst3dh6op.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\caesar_salad.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "706409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6vvNwoHu/5xtuP58+2mmqu4EW1X70bqpxw46Anu4+OA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 22:06:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mdst3dh6op"
+        },
+        {
+          "Name": "label",
+          "Value": "images/caesar_salad.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6vvNwoHu/5xtuP58+2mmqu4EW1X70bqpxw46Anu4+OA="
+        }
+      ]
+    },
+    {
+      "Route": "images/lobster_tail.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\lobster_tail.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6+opT5pUM5+kyupLbzFWMMBJBeKWF3op3+veufE0fNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 22:02:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6+opT5pUM5+kyupLbzFWMMBJBeKWF3op3+veufE0fNM="
+        }
+      ]
+    },
+    {
+      "Route": "images/lobster_tail.xlkvn5jvl8.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\lobster_tail.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6+opT5pUM5+kyupLbzFWMMBJBeKWF3op3+veufE0fNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 22:02:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xlkvn5jvl8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/lobster_tail.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6+opT5pUM5+kyupLbzFWMMBJBeKWF3op3+veufE0fNM="
+        }
+      ]
+    },
+    {
+      "Route": "images/ribeye.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\ribeye.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78225"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XWM2CKZx9gHtJipjnzQITTpqWBQkEVry7BOQ0KTTAYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 21:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XWM2CKZx9gHtJipjnzQITTpqWBQkEVry7BOQ0KTTAYY="
+        }
+      ]
+    },
+    {
+      "Route": "images/ribeye.jsm5q4vf0q.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\ribeye.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78225"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XWM2CKZx9gHtJipjnzQITTpqWBQkEVry7BOQ0KTTAYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 21:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jsm5q4vf0q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ribeye.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XWM2CKZx9gHtJipjnzQITTpqWBQkEVry7BOQ0KTTAYY="
+        }
+      ]
+    },
+    {
+      "Route": "images/tbone.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\tbone.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gAaANjXeNVQwXi/gzEG4u/4iS4NkGdMSqBbEimHnE9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 22:01:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gAaANjXeNVQwXi/gzEG4u/4iS4NkGdMSqBbEimHnE9Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/tbone.k3gsih51cd.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\tbone.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gAaANjXeNVQwXi/gzEG4u/4iS4NkGdMSqBbEimHnE9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 22:01:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k3gsih51cd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tbone.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gAaANjXeNVQwXi/gzEG4u/4iS4NkGdMSqBbEimHnE9Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/truffle_mac.cpf7s2d773.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\truffle_mac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "519044"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QL+S4J0iAvh0BrAOjzI6M4MNPnC5Zm0wWYnaW9cCFIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Aug 2025 00:20:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cpf7s2d773"
+        },
+        {
+          "Name": "label",
+          "Value": "images/truffle_mac.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QL+S4J0iAvh0BrAOjzI6M4MNPnC5Zm0wWYnaW9cCFIc="
+        }
+      ]
+    },
+    {
+      "Route": "images/truffle_mac.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\truffle_mac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "519044"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QL+S4J0iAvh0BrAOjzI6M4MNPnC5Zm0wWYnaW9cCFIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Aug 2025 00:20:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QL+S4J0iAvh0BrAOjzI6M4MNPnC5Zm0wWYnaW9cCFIc="
+        }
+      ]
+    },
+    {
+      "Route": "images/wagyu_tenderloin.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\wagyu_tenderloin.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lo//X1HWnxpTfe015qOGUK1WJgfZNjAqCKyRW2Ao6Eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 21:58:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lo//X1HWnxpTfe015qOGUK1WJgfZNjAqCKyRW2Ao6Eg="
+        }
+      ]
+    },
+    {
+      "Route": "images/wagyu_tenderloin.yf76gpljk2.jpg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\images\\wagyu_tenderloin.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lo//X1HWnxpTfe015qOGUK1WJgfZNjAqCKyRW2Ao6Eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 21:58:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yf76gpljk2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/wagyu_tenderloin.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lo//X1HWnxpTfe015qOGUK1WJgfZNjAqCKyRW2Ao6Eg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\62m1ndd2z5-l4chf6a119.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003367003367"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qV14MnNaylZM3SwdOOzAbc8SZTwtBrI7fz06NWZwcB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pX4mvFaK7yV142f0qg5+HcXeg5kcOxn3WIDACwf8byw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pX4mvFaK7yV142f0qg5+HcXeg5kcOxn3WIDACwf8byw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pX4mvFaK7yV142f0qg5+HcXeg5kcOxn3WIDACwf8byw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pX4mvFaK7yV142f0qg5+HcXeg5kcOxn3WIDACwf8byw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\62m1ndd2z5-l4chf6a119.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qV14MnNaylZM3SwdOOzAbc8SZTwtBrI7fz06NWZwcB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qV14MnNaylZM3SwdOOzAbc8SZTwtBrI7fz06NWZwcB0="
+        }
+      ]
+    },
+    {
+      "Route": "index.l4chf6a119.html",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\62m1ndd2z5-l4chf6a119.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003367003367"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qV14MnNaylZM3SwdOOzAbc8SZTwtBrI7fz06NWZwcB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pX4mvFaK7yV142f0qg5+HcXeg5kcOxn3WIDACwf8byw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l4chf6a119"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pX4mvFaK7yV142f0qg5+HcXeg5kcOxn3WIDACwf8byw="
+        }
+      ]
+    },
+    {
+      "Route": "index.l4chf6a119.html",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pX4mvFaK7yV142f0qg5+HcXeg5kcOxn3WIDACwf8byw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l4chf6a119"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pX4mvFaK7yV142f0qg5+HcXeg5kcOxn3WIDACwf8byw="
+        }
+      ]
+    },
+    {
+      "Route": "index.l4chf6a119.html.gz",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\62m1ndd2z5-l4chf6a119.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "296"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qV14MnNaylZM3SwdOOzAbc8SZTwtBrI7fz06NWZwcB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l4chf6a119"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qV14MnNaylZM3SwdOOzAbc8SZTwtBrI7fz06NWZwcB0="
+        }
+      ]
+    },
+    {
+      "Route": "vite.69kjnsiwqx.svg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\l0pdvvzy9o-69kjnsiwqx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001295336788"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 02:13:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kjnsiwqx"
+        },
+        {
+          "Name": "label",
+          "Value": "vite.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.69kjnsiwqx.svg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 02:13:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kjnsiwqx"
+        },
+        {
+          "Name": "label",
+          "Value": "vite.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.69kjnsiwqx.svg.gz",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\l0pdvvzy9o-69kjnsiwqx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 02:13:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kjnsiwqx"
+        },
+        {
+          "Name": "label",
+          "Value": "vite.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\l0pdvvzy9o-69kjnsiwqx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001295336788"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 02:13:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 02:13:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg.gz",
+      "AssetFile": "C:\\code\\SteakRestaurantAPl\\SteakRestaurantAPl\\obj\\Release\\net9.0\\compressed\\l0pdvvzy9o-69kjnsiwqx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 02:13:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY="
+        }
+      ]
+    }
+  ]
+}

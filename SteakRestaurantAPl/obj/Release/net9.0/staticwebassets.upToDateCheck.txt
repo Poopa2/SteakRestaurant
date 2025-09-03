@@ -1,0 +1,14 @@
+C:\code\SteakRestaurantAPl\SteakRestaurantAPl\wwwroot\assets\index-C1sxBwsM.js
+C:\code\SteakRestaurantAPl\SteakRestaurantAPl\wwwroot\index.html
+C:\code\SteakRestaurantAPl\SteakRestaurantAPl\wwwroot\vite.svg
+wwwroot\assets\index-C1sxBwsM.js
+wwwroot\images\0a6eb890-5f38-4923-94c2-1c920eb8c5c0.jpg
+wwwroot\images\a1bbef85-9696-4647-bdc5-db884689afac.jpg
+wwwroot\images\caesar_salad.jpg
+wwwroot\images\lobster_tail.jpg
+wwwroot\images\ribeye.jpg
+wwwroot\images\tbone.jpg
+wwwroot\images\truffle_mac.jpg
+wwwroot\images\wagyu_tenderloin.jpg
+wwwroot\index.html
+wwwroot\vite.svg

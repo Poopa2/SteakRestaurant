@@ -1,67 +1,92 @@
 using Microsoft.AspNetCore.Identity;
-using Microsoft.IdentityModel.Tokens; // สำหรับ JWT Authentication
+using Microsoft.EntityFrameworkCore;
 using SteakRestaurantAPl.Data;
-using SteakRestaurantAPl.Profiles;
+using SteakRestaurantAPl.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.OpenApi.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Controllers & Swagger
+// Add services to the container.
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequiredLength = 1;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+});
+
+
+var key = builder.Configuration.GetValue<string>("ApiSettings:Secret");
+builder.Services.AddAuthentication(u =>
+{
+    u.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    u.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(u =>
+{
+    u.RequireHttpsMetadata = false;
+    u.SaveToken = true;
+    u.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key)),
+        ValidateIssuer = false,
+        ValidateAudience = false
+    };
+});
+
+
+builder.Services.AddCors();
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
-// Authorization - เพิ่มการตั้งค่า JWT Authentication
-builder.Services.AddAuthentication("Bearer")
-    .AddJwtBearer(options =>
+builder.Services.AddSwaggerGen(options => {
+    options.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
     {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidIssuer = "your_app_name", // ตั้งชื่อให้เหมาะสม
-            ValidAudience = "your_app_name",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your_secret_key")) // เปลี่ยนเป็นคีย์ที่ปลอดภัย
-        };
+        Description =
+            "JWT Authorization header using the Bearer scheme. \r\n\r\n " +
+            "Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\n" +
+            "Example: \"Bearer 12345abcdef\"",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Scheme = JwtBearerDefaults.AuthenticationScheme
     });
-
-// เพิ่ม Authorization Services
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("AdminOnly", policy => policy.RequireRole("admin"));
-    options.AddPolicy("StaffOnly", policy => policy.RequireRole("staff"));
-    options.AddPolicy("CustomerOnly", policy => policy.RequireRole("customer"));
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement()
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                },
+                Scheme = "oauth2",
+                Name = "Bearer",
+                In = ParameterLocation.Header
+            },
+            new List<string>()
+        }
+    });
 });
 
-// AutoMapper
-builder.Services.AddAutoMapper(typeof(MappingProfile));
-
-// ✅ ลงทะเบียน DbContext ให้ DI (ใช้ ctor เปล่า + OnConfiguring)
-builder.Services.AddScoped<ApplicationDbContext>();
-
-// ✅ เปิด CORS สำหรับ Front-end (Vite 5173)
-builder.Services.AddCors(options =>
-{
-    options.AddDefaultPolicy(policy =>
-        policy
-            .WithOrigins(
-                "http://localhost:5173",
-                "http://127.0.0.1:5173"
-            )
-            .AllowAnyHeader()
-            .AllowAnyMethod()
-    );
-});
-
-// ถ้าจะใช้ Identity เต็มรูปแบบ ค่อยปลดคอมเมนต์ด้านล่างภายหลัง
-// builder.Services.AddIdentityCore<ApplicationUser>()
-//     .AddRoles<IdentityRole>()
-//     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 var app = builder.Build();
 
-// Swagger เฉพาะ Development
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -69,15 +94,26 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// --- V V V --- แก้ไขจุดนี้: เพิ่มการตั้งค่าสำหรับเสิร์ฟไฟล์ React --- V V V ---
+// ทำให้ Server รู้จักไฟล์ default เช่น index.html
+app.UseDefaultFiles();
+// เปิดใช้งานการเสิร์ฟไฟล์ static จากโฟลเดอร์ wwwroot
 app.UseStaticFiles();
+// --- ^ ^ ^ --- สิ้นสุดการแก้ไข --- ^ ^ ^ ---
 
-// ✅ ใช้ CORS ก่อน AuthN/AuthZ
-app.UseCors();
+app.UseCors(o => o.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().WithExposedHeaders("*"));
 
-// ✅ ใช้ Authentication และ Authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
-// กำหนดวิธีการเข้าถึง API โดยใช้ [Authorize] บน Controller หรือ Action ต่าง ๆ
 app.MapControllers();
+
+// --- V V V --- แก้ไขจุดนี้: เพิ่ม Fallback สำหรับ React Router --- V V V ---
+// ถ้า Request ที่เข้ามาไม่ตรงกับ API Controller ไหนเลย ให้ส่งกลับไปที่ index.html
+// เพื่อให้ React Router ทำงานในฝั่ง Client
+app.MapFallbackToFile("index.html");
+// --- ^ ^ ^ --- สิ้นสุดการแก้ไข --- ^ ^ ^ ---
+
 app.Run();
+

@@ -7,10 +7,13 @@ namespace SteakRestaurantAPl.Data
     // ถ้าไม่ได้ใช้ Identity ก็อยู่ได้ เพราะเรายังสืบจาก IdentityDbContext
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext() { }                              // ให้ EF CLI ใช้ ctor ว่างได้
-        public ApplicationDbContext(DbContextOptions options) : base(options) { }
+        public ApplicationDbContext() { }                                 // ให้ EF CLI ใช้ ctor ว่างได้
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        // ใช้คอนเนกชันสตริงจากนี่ (dev) — ถ้า AddDbContext ใน Program.cs ก็จะ override ได้
+        // --- V V V --- แก้ไขจุดนี้ --- V V V ---
+        // ลบเมธอด OnConfiguring ที่มี Connection String ของเครื่องคุณออกทั้งหมด
+        // เพื่อให้โปรแกรมไปใช้ Connection String จากไฟล์ appsettings.json แทน ซึ่งเป็นวิธีที่ถูกต้องสำหรับการ Deploy
+        /*
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -19,7 +22,9 @@ namespace SteakRestaurantAPl.Data
                     "Server=LAPTOP-6FQ9C8GJ\\SQLEXPRESS01;Database=SteakRestaurantAPl;Trusted_Connection=True;TrustServerCertificate=True;");
             }
         }
-       
+        */
+        // --- ^ ^ ^ --- สิ้นสุดส่วนที่แก้ไข --- ^ ^ ^ ---
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -40,11 +45,11 @@ namespace SteakRestaurantAPl.Data
             {
                 e.Property(o => o.TotalAmount).HasColumnType("decimal(18,2)");
                 e.Property(o => o.SessionToken).HasMaxLength(64);
-                e.HasIndex(o => o.SessionToken).IsUnique();             // โทเคนไม่ซ้ำ
+                e.HasIndex(o => o.SessionToken).IsUnique();           // โทเคนไม่ซ้ำ
                 e.HasMany(o => o.OrderItems)
                     .WithOne(i => i.Order)
                     .HasForeignKey(i => i.OrderId)
-                    .OnDelete(DeleteBehavior.Cascade);                  // ลบออเดอร์ -> ไอเท็มหายด้วย
+                    .OnDelete(DeleteBehavior.Cascade);            // ลบออเดอร์ -> ไอเท็มหายด้วย
             });
 
             // ---------- OrderItem ----------
@@ -54,7 +59,7 @@ namespace SteakRestaurantAPl.Data
                 e.HasOne(i => i.Product)
                     .WithMany()
                     .HasForeignKey(i => i.ProductId)
-                    .OnDelete(DeleteBehavior.Restrict);                 // กันลบสินค้าแล้วกระทบประวัติ
+                    .OnDelete(DeleteBehavior.Restrict);            // กันลบสินค้าแล้วกระทบประวัติ
             });
 
             // ---------- Payment ----------
@@ -150,3 +155,4 @@ namespace SteakRestaurantAPl.Data
         public DbSet<Customization> Customizations { get; set; }
     }
 }
+
